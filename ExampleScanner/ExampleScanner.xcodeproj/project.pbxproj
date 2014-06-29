@@ -22,6 +22,7 @@
 		675EF6D71960079D00B4BF01 /* KTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675EF6D51960079D00B4BF01 /* KTMainViewController.m */; };
 		675EF6D81960079D00B4BF01 /* KTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 675EF6D61960079D00B4BF01 /* KTMainViewController.xib */; };
 		675EF6DC1960086700B4BF01 /* KTScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 675EF6DB1960086700B4BF01 /* KTScannerView.m */; };
+		675EF6DE196012DF00B4BF01 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675EF6DD196012DF00B4BF01 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		675EF6D61960079D00B4BF01 /* KTMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTMainViewController.xib; sourceTree = "<group>"; };
 		675EF6DA1960086700B4BF01 /* KTScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTScannerView.h; sourceTree = "<group>"; };
 		675EF6DB1960086700B4BF01 /* KTScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTScannerView.m; sourceTree = "<group>"; };
+		675EF6DD196012DF00B4BF01 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				675EF6DE196012DF00B4BF01 /* AVFoundation.framework in Frameworks */,
 				675EF6A81960075300B4BF01 /* CoreGraphics.framework in Frameworks */,
 				675EF6AA1960075300B4BF01 /* UIKit.framework in Frameworks */,
 				675EF6A61960075300B4BF01 /* Foundation.framework in Frameworks */,
@@ -104,6 +107,7 @@
 		675EF6A41960075300B4BF01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				675EF6DD196012DF00B4BF01 /* AVFoundation.framework */,
 				675EF6A51960075300B4BF01 /* Foundation.framework */,
 				675EF6A71960075300B4BF01 /* CoreGraphics.framework */,
 				675EF6A91960075300B4BF01 /* UIKit.framework */,
@@ -463,6 +467,7 @@
 				675EF6D01960075300B4BF01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		675EF6D11960075300B4BF01 /* Build configuration list for PBXNativeTarget "ExampleScannerTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +476,7 @@
 				675EF6D31960075300B4BF01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
