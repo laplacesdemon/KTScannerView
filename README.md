@@ -27,4 +27,4 @@ Cocoapods
 
 Add following to your `Podfile`
 
-    pod 'KTScannerView', :git => 'https://github.com/laplacesdemon/KTScannerView.git'
+    pod 'KTScannerView'
