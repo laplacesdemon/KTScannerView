@@ -21,3 +21,10 @@ Events that this view throws are following:
 
  * UIControlEventValueChanged: After scanned value is changed
  * UIControlEventTouchDown: After user tap to focus
+
+Cocoapods
+---------
+
+Add following to your `Podfile`
+
+    pod 'KTScannerView', :git => 'https://github.com/laplacesdemon/KTScannerView.git'
