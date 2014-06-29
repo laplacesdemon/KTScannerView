@@ -1,6 +1,5 @@
 //
 //  KTScannerView.m
-//  BPlus
 //
 //  Created by Suleyman Melikoglu on 28/06/14.
 //  Copyright (c) 2014 Katu. All rights reserved.
