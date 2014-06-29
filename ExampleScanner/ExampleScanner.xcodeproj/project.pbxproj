@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		675EF6A61960075300B4BF01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675EF6A51960075300B4BF01 /* Foundation.framework */; };
+		675EF6A81960075300B4BF01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675EF6A71960075300B4BF01 /* CoreGraphics.framework */; };
+		675EF6AA1960075300B4BF01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675EF6A91960075300B4BF01 /* UIKit.framework */; };
+		675EF6B01960075300B4BF01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 675EF6AE1960075300B4BF01 /* InfoPlist.strings */; };
+		675EF6B21960075300B4BF01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 675EF6B11960075300B4BF01 /* main.m */; };
+		675EF6B61960075300B4BF01 /* KTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 675EF6B51960075300B4BF01 /* KTAppDelegate.m */; };
+		675EF6B81960075300B4BF01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675EF6B71960075300B4BF01 /* Images.xcassets */; };
+		675EF6BF1960075300B4BF01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675EF6BE1960075300B4BF01 /* XCTest.framework */; };
+		675EF6C01960075300B4BF01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675EF6A51960075300B4BF01 /* Foundation.framework */; };
+		675EF6C11960075300B4BF01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675EF6A91960075300B4BF01 /* UIKit.framework */; };
+		675EF6C91960075300B4BF01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 675EF6C71960075300B4BF01 /* InfoPlist.strings */; };
+		675EF6CB1960075300B4BF01 /* ExampleScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 675EF6CA1960075300B4BF01 /* ExampleScannerTests.m */; };
+		675EF6D71960079D00B4BF01 /* KTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675EF6D51960079D00B4BF01 /* KTMainViewController.m */; };
+		675EF6D81960079D00B4BF01 /* KTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 675EF6D61960079D00B4BF01 /* KTMainViewController.xib */; };
+		675EF6DC1960086700B4BF01 /* KTScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 675EF6DB1960086700B4BF01 /* KTScannerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		675EF6C21960075300B4BF01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 675EF69A1960075300B4BF01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 675EF6A11960075300B4BF01;
+			remoteInfo = ExampleScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		675EF6A21960075300B4BF01 /* ExampleScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		675EF6A51960075300B4BF01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		675EF6A71960075300B4BF01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		675EF6A91960075300B4BF01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		675EF6AD1960075300B4BF01 /* ExampleScanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleScanner-Info.plist"; sourceTree = "<group>"; };
+		675EF6AF1960075300B4BF01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		675EF6B11960075300B4BF01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		675EF6B31960075300B4BF01 /* ExampleScanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleScanner-Prefix.pch"; sourceTree = "<group>"; };
+		675EF6B41960075300B4BF01 /* KTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTAppDelegate.h; sourceTree = "<group>"; };
+		675EF6B51960075300B4BF01 /* KTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTAppDelegate.m; sourceTree = "<group>"; };
+		675EF6B71960075300B4BF01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		675EF6BD1960075300B4BF01 /* ExampleScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		675EF6BE1960075300B4BF01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		675EF6C61960075300B4BF01 /* ExampleScannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleScannerTests-Info.plist"; sourceTree = "<group>"; };
+		675EF6C81960075300B4BF01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		675EF6CA1960075300B4BF01 /* ExampleScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleScannerTests.m; sourceTree = "<group>"; };
+		675EF6D41960079D00B4BF01 /* KTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMainViewController.h; sourceTree = "<group>"; };
+		675EF6D51960079D00B4BF01 /* KTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMainViewController.m; sourceTree = "<group>"; };
+		675EF6D61960079D00B4BF01 /* KTMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTMainViewController.xib; sourceTree = "<group>"; };
+		675EF6DA1960086700B4BF01 /* KTScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTScannerView.h; sourceTree = "<group>"; };
+		675EF6DB1960086700B4BF01 /* KTScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTScannerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		675EF69F1960075300B4BF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675EF6A81960075300B4BF01 /* CoreGraphics.framework in Frameworks */,
+				675EF6AA1960075300B4BF01 /* UIKit.framework in Frameworks */,
+				675EF6A61960075300B4BF01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675EF6BA1960075300B4BF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675EF6BF1960075300B4BF01 /* XCTest.framework in Frameworks */,
+				675EF6C11960075300B4BF01 /* UIKit.framework in Frameworks */,
+				675EF6C01960075300B4BF01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		675EF6991960075300B4BF01 = {
+			isa = PBXGroup;
+			children = (
+				675EF6AB1960075300B4BF01 /* ExampleScanner */,
+				675EF6C41960075300B4BF01 /* ExampleScannerTests */,
+				675EF6A41960075300B4BF01 /* Frameworks */,
+				675EF6A31960075300B4BF01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		675EF6A31960075300B4BF01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				675EF6A21960075300B4BF01 /* ExampleScanner.app */,
+				675EF6BD1960075300B4BF01 /* ExampleScannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		675EF6A41960075300B4BF01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				675EF6A51960075300B4BF01 /* Foundation.framework */,
+				675EF6A71960075300B4BF01 /* CoreGraphics.framework */,
+				675EF6A91960075300B4BF01 /* UIKit.framework */,
+				675EF6BE1960075300B4BF01 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		675EF6AB1960075300B4BF01 /* ExampleScanner */ = {
+			isa = PBXGroup;
+			children = (
+				675EF6D91960086700B4BF01 /* KTScannerView */,
+				675EF6B41960075300B4BF01 /* KTAppDelegate.h */,
+				675EF6B51960075300B4BF01 /* KTAppDelegate.m */,
+				675EF6B71960075300B4BF01 /* Images.xcassets */,
+				675EF6AC1960075300B4BF01 /* Supporting Files */,
+				675EF6D41960079D00B4BF01 /* KTMainViewController.h */,
+				675EF6D51960079D00B4BF01 /* KTMainViewController.m */,
+				675EF6D61960079D00B4BF01 /* KTMainViewController.xib */,
+			);
+			path = ExampleScanner;
+			sourceTree = "<group>";
+		};
+		675EF6AC1960075300B4BF01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				675EF6AD1960075300B4BF01 /* ExampleScanner-Info.plist */,
+				675EF6AE1960075300B4BF01 /* InfoPlist.strings */,
+				675EF6B11960075300B4BF01 /* main.m */,
+				675EF6B31960075300B4BF01 /* ExampleScanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		675EF6C41960075300B4BF01 /* ExampleScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				675EF6CA1960075300B4BF01 /* ExampleScannerTests.m */,
+				675EF6C51960075300B4BF01 /* Supporting Files */,
+			);
+			path = ExampleScannerTests;
+			sourceTree = "<group>";
+		};
+		675EF6C51960075300B4BF01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				675EF6C61960075300B4BF01 /* ExampleScannerTests-Info.plist */,
+				675EF6C71960075300B4BF01 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		675EF6D91960086700B4BF01 /* KTScannerView */ = {
+			isa = PBXGroup;
+			children = (
+				675EF6DA1960086700B4BF01 /* KTScannerView.h */,
+				675EF6DB1960086700B4BF01 /* KTScannerView.m */,
+			);
+			name = KTScannerView;
+			path = ../../KTScannerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		675EF6A11960075300B4BF01 /* ExampleScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675EF6CE1960075300B4BF01 /* Build configuration list for PBXNativeTarget "ExampleScanner" */;
+			buildPhases = (
+				675EF69E1960075300B4BF01 /* Sources */,
+				675EF69F1960075300B4BF01 /* Frameworks */,
+				675EF6A01960075300B4BF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleScanner;
+			productName = ExampleScanner;
+			productReference = 675EF6A21960075300B4BF01 /* ExampleScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		675EF6BC1960075300B4BF01 /* ExampleScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675EF6D11960075300B4BF01 /* Build configuration list for PBXNativeTarget "ExampleScannerTests" */;
+			buildPhases = (
+				675EF6B91960075300B4BF01 /* Sources */,
+				675EF6BA1960075300B4BF01 /* Frameworks */,
+				675EF6BB1960075300B4BF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				675EF6C31960075300B4BF01 /* PBXTargetDependency */,
+			);
+			name = ExampleScannerTests;
+			productName = ExampleScannerTests;
+			productReference = 675EF6BD1960075300B4BF01 /* ExampleScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		675EF69A1960075300B4BF01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Katu;
+				TargetAttributes = {
+					675EF6BC1960075300B4BF01 = {
+						TestTargetID = 675EF6A11960075300B4BF01;
+					};
+				};
+			};
+			buildConfigurationList = 675EF69D1960075300B4BF01 /* Build configuration list for PBXProject "ExampleScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 675EF6991960075300B4BF01;
+			productRefGroup = 675EF6A31960075300B4BF01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				675EF6A11960075300B4BF01 /* ExampleScanner */,
+				675EF6BC1960075300B4BF01 /* ExampleScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		675EF6A01960075300B4BF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675EF6D81960079D00B4BF01 /* KTMainViewController.xib in Resources */,
+				675EF6B01960075300B4BF01 /* InfoPlist.strings in Resources */,
+				675EF6B81960075300B4BF01 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675EF6BB1960075300B4BF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675EF6C91960075300B4BF01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		675EF69E1960075300B4BF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675EF6D71960079D00B4BF01 /* KTMainViewController.m in Sources */,
+				675EF6B21960075300B4BF01 /* main.m in Sources */,
+				675EF6DC1960086700B4BF01 /* KTScannerView.m in Sources */,
+				675EF6B61960075300B4BF01 /* KTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675EF6B91960075300B4BF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675EF6CB1960075300B4BF01 /* ExampleScannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		675EF6C31960075300B4BF01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 675EF6A11960075300B4BF01 /* ExampleScanner */;
+			targetProxy = 675EF6C21960075300B4BF01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		675EF6AE1960075300B4BF01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				675EF6AF1960075300B4BF01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		675EF6C71960075300B4BF01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				675EF6C81960075300B4BF01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		675EF6CC1960075300B4BF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		675EF6CD1960075300B4BF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		675EF6CF1960075300B4BF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleScanner/ExampleScanner-Prefix.pch";
+				INFOPLIST_FILE = "ExampleScanner/ExampleScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		675EF6D01960075300B4BF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleScanner/ExampleScanner-Prefix.pch";
+				INFOPLIST_FILE = "ExampleScanner/ExampleScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		675EF6D21960075300B4BF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExampleScanner.app/ExampleScanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleScanner/ExampleScanner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ExampleScannerTests/ExampleScannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		675EF6D31960075300B4BF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExampleScanner.app/ExampleScanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleScanner/ExampleScanner-Prefix.pch";
+				INFOPLIST_FILE = "ExampleScannerTests/ExampleScannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		675EF69D1960075300B4BF01 /* Build configuration list for PBXProject "ExampleScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675EF6CC1960075300B4BF01 /* Debug */,
+				675EF6CD1960075300B4BF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		675EF6CE1960075300B4BF01 /* Build configuration list for PBXNativeTarget "ExampleScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675EF6CF1960075300B4BF01 /* Debug */,
+				675EF6D01960075300B4BF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		675EF6D11960075300B4BF01 /* Build configuration list for PBXNativeTarget "ExampleScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675EF6D21960075300B4BF01 /* Debug */,
+				675EF6D31960075300B4BF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 675EF69A1960075300B4BF01 /* Project object */;
+}
