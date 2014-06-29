@@ -9,22 +9,39 @@ and can be used in a nib file or programmatically.
 Installation
 ------------
 
-Either copy the source to your project, or use `cocoapods` as explained below. See the example project for details.
+Add following to your `Podfile`
 
-How to get scanned values
--------------------------
+    pod 'KTScannerView'
+    
+Alternatively copy the source to your project.
 
-Either observe `scannedValue` property or add an action to `UIControlEventValueChanged` event. Value changed event
-is thrown when the scanned value is available. 
+Example
+-------
+
+See the example project for details. For the impatient, use it just another view and get scanned value from its value changed event.
+
+    - (void)viewDidLoad
+    {
+        KTScannerView *scannerView = [KTScannerView new]; // also set its frame or use auto layout.
+        [self.scannerView addTarget:self
+                         action:@selector(onScannerDidScan:)
+               forControlEvents:UIControlEventValueChanged];
+        [self.view addSubview:scannerView];
+    }
+    
+    - (IBAction)onScannerDidScan:(KTScannerView *)sender
+    {
+        NSLog(@"scanned value is %@", sender.scannedValue);
+    }
+
+Events
+------
 
 Events that this view throws are following:
 
  * UIControlEventValueChanged: After scanned value is changed
  * UIControlEventTouchDown: After user tap to focus
 
-Cocoapods
----------
+Alternatively, you can observe `scannedValue` property to get the changes to the scanned value instead of adding an event handler.
 
-Add following to your `Podfile`
 
-    pod 'KTScannerView'
